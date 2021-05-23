@@ -1,0 +1,203 @@
+.contacts-wrapper{
+	height: 100vh;
+	width:100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.label-wrapper{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.main-part-wrapper{
+	flex: 8;
+	display: flex;
+}
+
+.footer-part-wrapper{
+	flex: 2;
+}
+
+.label {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.06em;
+	justify-content: center;
+	color: #000000;
+	margin-top: 25px;
+}
+
+.logo-wrapper{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.car-skillet-image{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.left-main-part{
+	flex: 6;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.right-main-part{
+	flex: 6;
+	display: flex;
+	justify-content: center;
+}
+
+.single-contact-wrapper{
+	display: flex;
+	margin-top: 25px;
+	width: 415px;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+
+.bold-text{
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 20px;
+	align-items: center;
+	letter-spacing: -0.06em;
+
+	color: #000000;
+}
+
+.contact-text-wrapper{
+	width: 350px;
+}
+
+.right-text{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.avatar-image{
+	height: 100px;
+}
+
+.form-wrapper{
+	width: 315px;
+	height: 289px;
+
+	background: #FFFFFF;
+	border: 1.2px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+	margin-top: 5px;
+}
+.from-main-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+}
+
+
+.make-order-text{
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -0.06em;
+
+	color: #000000;
+
+}
+
+.order-form{
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10px 10px 10px;
+	justify-content: space-between;
+}
+
+.form-input{
+	background: #FFFFFF;
+	border: 0.5px solid #000000;
+	box-sizing: border-box;
+	border-radius: 10px;
+	height: 34px;
+	padding-left: 10px;
+}
+
+.make-order-button{
+	background: #FDC350;
+	border: 0.65px solid #000000;
+	box-sizing: border-box;
+	border-radius: 23px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.order-button-text{
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.06em;
+
+	color: #000000;
+
+}
+
+.water-mark-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.water-mark-text{
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+
+	color: #000000;
+
+}
+
+.adress-text{
+	z-index: 100000;
+	font-family: 'Roboto', serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.06em;
+
+
+	color: #000000;
+}
+
+.contacts-adress-text{
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	margin-left: 30px;
+}

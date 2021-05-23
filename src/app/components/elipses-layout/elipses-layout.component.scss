@@ -1,0 +1,107 @@
+.upper-right-ellipse-wrapper{
+	position: absolute;
+	width: 1105px;
+	height: 1105px;
+	left: calc(100vw - 553px);
+	top: -440px;
+}
+
+.upper-right-ellipse{
+	fill: #0278E9;
+}
+
+.upper-lover-right-ellipse-wrapper{
+	position: absolute;
+	width: 1105px;
+	height: 1105px;
+	left: calc(100vw - 553px);
+	top: -310px;
+}
+
+.middle-lover-right-ellipse-wrapper{
+	position: absolute;
+	left: -253px;
+	width: 820px;
+	height: 1000px;
+	top: calc(100vh - 295px);
+}
+
+.autopark-left-circle{
+	position: absolute;
+	height: 700px;
+	width: 700px;
+	top:200vh;
+}
+
+.autopark-right-circle{
+	position: absolute;
+	height: 900px;
+	width: 700px;
+	top: calc(200vh - 265px);
+	right: -200px;
+}
+
+.contacts-footer-ellipse{
+	width: 90%;
+	height: 100%;
+	background: #0278E9;
+	border-radius: 175.5px;
+	top: calc(400vh - 100px);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-elipse-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 409px;
+	width: 100vw;
+}
+
+.label{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.06em;
+	justify-content: center;
+	color: #000000;
+	margin-top: 25px;
+}
+
+.car-skillet-image{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.logo-wrapper{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logos-wrapper{
+	margin-top: 40px;
+	background: #FFFFFF;
+	box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	width: 95%;
+	height: 76px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.image-logo{
+	height: 40px;
+}

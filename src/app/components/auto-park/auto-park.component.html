@@ -1,0 +1,18 @@
+<div class="auto-park-wrapper">
+    <div class="label-wrapper">
+        <span class="label">Наш автопарк</span>
+        <div class="logo-wrapper">
+            <img  src="/assets/images/line.png" alt="Car"/>
+            <img class="car-skillet-image" src="/assets/images/car-skilett.png" alt="Car"/>
+            <img src="/assets/images/line.png" alt="Car"/>
+        </div>
+    </div>
+    <div class="images-wrapper">
+        <div (click)="handleLeftArrow()" class="arrow-left"><img src="/assets/images/arrow-left.png"></div>
+        <div class="image-car-wrapper"><img class="car-image" src="{{activeCar.path}}"></div>
+        <div (click)="handleRightArrow()" class="arrow-right"><img src="/assets/images/arrow-right.png"></div>
+    </div>
+    <div class="dots-wrapper">
+            <div *ngFor="let dot of images" [ngClass]="dot.id === activeCar.id ? 'active-dot' : 'dot'"></div>
+    </div>
+</div>
